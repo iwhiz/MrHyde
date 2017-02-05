@@ -141,7 +141,7 @@ header .intro-text .skills{
 }
 @media (min-width:768px){
     .navbar-custom{
-        padding:25px 0;
+        padding:20px 0;
         -webkit-transition:padding .3s;
         -moz-transition:padding .3s;
         transition:padding .3s
@@ -242,10 +242,6 @@ footer .footer-below{
     background-color:#116896;
     border-color:#116896
 }
-.btn-success .badge{
-    color:#1883BC;
-    background-color:#fff
-}
 .btn-social{
     display:inline-block;
     border:2px solid #fff;
@@ -255,19 +251,5 @@ footer .footer-below{
     line-height:45px
 }
 .btn.active,.btn:active,.btn:focus{
-    outline:0
-}
-.scroll-top{
-    position:fixed;
-    right:2%;
-    bottom:2%;
-    z-index:1049
-}
-.scroll-top .btn{
-    font-size:20px;
-    border-radius:100%;
-    line-height:28px
-}
-.scroll-top .btn:focus{
     outline:0
 }

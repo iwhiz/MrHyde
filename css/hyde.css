@@ -253,3 +253,6 @@ footer .footer-below{
 .btn.active,.btn:active,.btn:focus{
     outline:0
 }
+html {
+    scroll-behavior: smooth;
+}

@@ -4,13 +4,16 @@ body{
      overflow-x:hidden
 }
 p{
-    font-size:18px
+    font-size:18px;
+    color:#000000;
 }
 p.small{
     font-size:16px
 }
 ul{
     font-size: 16px;
+    color:#000000;
+}
 }
 a,a.active,a:active,a:focus,a:hover{
     color:#36322f;
@@ -40,6 +43,13 @@ hr.star-light:after,hr.star-primary:after,hr.star-about:after{
     top:-.8em;
     font-size:2em;
     padding:0 .25em
+}
+#newback
+{
+    background-image:url('img/images.jpg');
+    background-size:cover;
+    opacity:0.8;
+    background-repeat: no-repeat;
 }
 .navbar-custom,header .intro-text .name{
     font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -75,7 +85,7 @@ hr.star-about:after{
 }
 header{
     text-align:center;
-    background:#1883bc
+    
 }
 header .container{
     padding-top:100px;
@@ -83,7 +93,7 @@ header .container{
 }
 header img{
     display:block;
-    margin:0 auto 20px
+    margin:0 auto 20px;
 }
 header .intro-text .name{
     display:block;
@@ -164,10 +174,12 @@ section{
 }
 section h2{
     margin:0;
-    font-size:3em
+    font-size:3em;
+    color:#000000;
 }
 section.success{
     background:#233140;
+    
     color:#fff;
     padding-left: 3px;
     padding-right: 3px;
